@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.box:nth-child(1){
+    background-color: rgb(241, 124, 124);
+    left: 20px;
+    top: 20px;
+    z-index: 1;
+}
+
+.box:nth-child(2){
+    background-color: rgb(99, 219, 99);
+    left: 120px;
+    top: 120px;
+    z-index: 1;
+}
+
+.box:nth-child(3){
+    background-color: rgb(102, 102, 216);
+    left: 70px;
+    top: 70px;
+    z-index: 2;
+}
